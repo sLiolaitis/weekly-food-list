@@ -1,0 +1,50 @@
+/* Navbar */
+
+nav {
+	background-color: beige;
+	border-bottom: 2px solid rgb(186, 186, 156);
+}
+nav > div {
+	max-width: 1092px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+nav ul {
+	display: flex;
+	flex-direction: row;
+	gap: 24px;
+	padding-inline-start: 0;
+}
+nav li {
+	list-style: none;
+}
+nav li a,
+nav li a:visited {
+	font-size: 18px;
+	color: darkblue;
+	font-weight: bold;
+	text-decoration: none;
+}
+nav li a:hover {
+	color: blue;
+}
+
+/* End of navbar */
+
+/* Body, header, sections, footer */
+
+body {
+	margin: 0;
+}
+
+header,
+section,
+footer {
+	max-width: 1092px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* End of body, header, sections, footer*/
